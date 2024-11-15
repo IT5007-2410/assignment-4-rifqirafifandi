@@ -34,10 +34,10 @@ export default class App extends React.Component
   render()
   {
     return(
-    <>
-      <Text>Issue Tracker</Text>
+    <View style = {{backgroundColor: '#fff'}}>
+      <Text style={{fontSize: 20, textAlign: 'center', fontWeight: 'bold'}}>Issue Tracker Application</Text>
       <IssueList/>
-    </>);
+    </View>);
 
   }
 }
